@@ -1,0 +1,9 @@
+{
+  allPosts {
+    nodes {
+      headline
+      body
+	    summary
+    }
+  }
+}

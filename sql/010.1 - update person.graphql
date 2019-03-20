@@ -1,0 +1,10 @@
+mutation {
+  updatePersonByUsername(input: {username: "joe", personPatch: {about: "Hi, I'm Joseph.", firstName: "Joseph", lastName: "Abell"}}) {
+    person {
+      username
+      firstName
+      lastName
+      about
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  allPeople {
+    nodes {
+      username
+      fullName
+      firstName
+      lastName
+    }
+  }
+}

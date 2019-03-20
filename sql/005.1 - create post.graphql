@@ -1,0 +1,14 @@
+mutation {
+  createPost(input: {
+    post: {
+      headline: "This is the title",
+      body: "This is the body. This is the body. This is the body. This is the body. This is the body. This is the body. This is the body. This is the body. This is the body. This is the body. This is the body. This is the body. This is the body. This is the body. This is the body. This is the body. This is the body.",
+      topic: REACT,
+      authorUsername: "joe"
+    }
+  }) {
+    post {
+      headline
+    }
+  }
+}

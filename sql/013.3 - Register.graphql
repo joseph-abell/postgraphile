@@ -1,0 +1,11 @@
+mutation {
+  registerPerson(input: {
+    email: "joe@josephabell.co.uk",
+    password: "password",
+    username: "joe"
+  }) {
+    person {
+      username
+    }
+  }
+}

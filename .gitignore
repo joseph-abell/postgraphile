@@ -1,0 +1,6 @@
+/app/node_modules
+/app/.next
+/app/dist
+/app/.DS_Store
+/graphql/.DS_Store
+/graphql/node_modules

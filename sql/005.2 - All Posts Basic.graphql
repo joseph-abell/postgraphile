@@ -1,0 +1,11 @@
+{
+  allPosts {
+    nodes {
+      headline
+      body
+      topic
+      createdAt
+      updatedAt
+    }
+  }
+}

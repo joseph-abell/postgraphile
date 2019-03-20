@@ -1,0 +1,8 @@
+{
+  searchPosts (search: "This") {
+    nodes {
+      headline
+      body
+    }
+  }
+}

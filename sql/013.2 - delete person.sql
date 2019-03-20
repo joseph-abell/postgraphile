@@ -1,0 +1,1 @@
+delete from forum.post;

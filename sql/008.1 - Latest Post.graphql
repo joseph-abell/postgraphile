@@ -1,0 +1,12 @@
+{
+  allPeople {
+    nodes {
+      username
+      fullName
+      latestPost {
+        headline
+        summary
+      }
+    }
+  }
+}

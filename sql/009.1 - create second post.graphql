@@ -1,0 +1,14 @@
+mutation {
+  createPost(input: {
+    post: {
+      headline: "A second post.",
+      body: "A Second post which will not be hit by searching.",
+      topic: REACT,
+      authorUsername: "joe"
+    }
+  }) {
+    post {
+      headline
+    }
+  }
+}
